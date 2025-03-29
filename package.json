@@ -5,6 +5,7 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
+    "start": "vite preview",
     "start:prod": "vite preview",
     "start:dev": "vite",
     "type-check": "tsc --noEmit",
