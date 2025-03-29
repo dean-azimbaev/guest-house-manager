@@ -1,0 +1,40 @@
+{
+  "name": "manager-ui",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "start:prod": "vite preview",
+    "start:dev": "vite",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint --fix --ext .js,.jsx,.ts,.tsx ./src",
+    "format": "prettier --write ./src"
+  },
+  "dependencies": {
+    "@mui/material": "^6.4.7",
+    "axios": "^1.7.9",
+    "interactjs": "^1.10.27",
+    "ra-data-simple-rest": "^5.0.0",
+    "react": "^18.3.0",
+    "react-admin": "^5.0.0",
+    "react-calendar-timeline": "0.28.0",
+    "react-dom": "^18.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.7",
+    "@types/react": "^18.3.3",
+    "@types/react-calendar-timeline": "0.28.6",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.60.1",
+    "@typescript-eslint/parser": "^5.60.1",
+    "@vitejs/plugin-react": "^4.0.1",
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.8",
+    "typescript": "^5.1.6",
+    "vite": "^4.3.9"
+  }
+}
